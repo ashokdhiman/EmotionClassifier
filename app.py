@@ -13,8 +13,8 @@ emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surpri
 # Load the pre-trained model
 @st.cache_resource
 def load_emotion_model():
-    model = load_model('model_90_65.h5', compile=False)
-    model.load_weights('model_weights_90_65.weights.h5')
+    model = load_model('model_80_65.h5', compile=False)
+    model.load_weights('model_weights_80_65.weights.h5')
     return model
 
 
