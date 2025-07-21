@@ -57,7 +57,7 @@ def main():
         activities = ["Home", "Live Face Emotion Detection", "About"]
         choice = st.selectbox("Select Activity", activities)
         st.markdown("---")
-        st.markdown("👨‍💻 *Developed by Ashok and Dharna*")
+        st.markdown("👨‍💻 *Developed by Ashok*")
 
     if choice == "Home":
         st.markdown(
